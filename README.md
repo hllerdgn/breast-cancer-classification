@@ -41,7 +41,7 @@ Her öznitelik; ortalama (mean), standart hata (se) ve en kötü değer (worst) 
 
 1. `id` sütunu veri setinden çıkarıldı
 2. `diagnosis` sütunu LabelEncoder ile sayısal değere dönüştürüldü (B=0, M=1)
-3. Veri %70 eğitim / %30 test olarak ayrıldı (`stratify=y`)
+3. Veri %80 eğitim / %20 test olarak ayrıldı (`stratify=y`)
 4. Random Forest modeli `n_estimators=100` ile eğitildi
 5. Model performansı 4 metrik ile değerlendirildi
 
