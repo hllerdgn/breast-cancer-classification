@@ -4,7 +4,6 @@ Bu çalışmada, Breast Cancer Wisconsin veri seti kullanılarak iyi huylu (beni
 
 ---
 
-## 📁 dosya Yapısı
 
 ```
 breast-cancer-classification/
