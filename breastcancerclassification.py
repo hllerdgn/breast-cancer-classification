@@ -26,7 +26,7 @@ y = df["diagnosis"]
 # tüm sütunlardan diagnosis ve id sütunlarının çıkarılması
 X = df.drop(["diagnosis", "id"], axis=1)
 
-# test verisine %30 luk bir alan ayırtarak modelin öğrenme parametrelerinin ayarlanması
+# test verisine %20 lik bir alan ayırtarak modelin öğrenme parametrelerinin ayarlanması
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.20, random_state=42, stratify=y
 )
